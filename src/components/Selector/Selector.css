@@ -1,0 +1,86 @@
+.custom-select {
+    width: fit-content;
+    background-color: var(--light-elements-dark-text);
+    transition: all 0.3s;
+}
+
+.custom-select .react-select__control {
+    border: none !important;
+    outline: none !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: inherit;
+    transition: all 0.3s;
+    cursor: pointer !important;
+}
+
+body.dark .custom-select {
+    background-color: var(--dark-element);
+    border-radius: 5px;
+}
+
+body.dark .custom-select .react-select__single-value {
+    color: var(--light-elements-dark-text);   
+}
+
+body.dark .custom-select .react-select__control {
+    background-color: var(--dark-element);
+    color: var(--light-elements-dark-text);
+}
+
+.custom-select .react-select__menu {
+    background-color: var(--light-elements-dark-text);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark .custom-select .react-select__menu {
+    color: var(--light-elements-dark-text);
+    background-color: var(--dark-element);
+}
+
+.custom-select .react-select__option {
+    background-color: var(--light-elements-dark-text);
+    color: inherit;
+    cursor: pointer;
+}
+
+body.dark .custom-select .react-select__option {
+    background-color: var(--dark-element);
+}
+
+.custom-select .react-select__control:hover,
+.custom-select .react-select__control:focus-within {
+    transform: scale(1.1);
+}
+
+body.dark .custom-select .react-select__control:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.custom-select .react-select__option:hover,
+.custom-select .react-select__option--is-focused {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+body.dark .custom-select .react-select__option {
+    background-color: var(--dark-element);
+}
+
+body.dark .custom-select .react-select__option:hover,
+body.dark .custom-select .react-select__option--is-focused  {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.custom-select .react-select__dropdown-indicator {
+    transition: none;
+}
+
+.custom-select .react-select__dropdown-indicator:hover,
+.custom-select .react-select__dropdown-indicator:focus {
+    color: inherit !important;
+    opacity: 1 !important;
+}
+
+.custom-select .react-select__dropdown-indicator {
+    color: inherit !important;
+    opacity: 1 !important;
+}

@@ -1,0 +1,140 @@
+:root {
+  --light-elements-dark-text: hsl(0, 100%, 100%);
+  --dark-element: hsl(209, 23%, 22%);
+  --dark-background: hsl(207, 26%, 17%);
+  --light-text: var(--light-text);
+  --light-input: hsl(0, 0%, 50%);
+  --light-back: hsl(0, 0%, 99%);
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-Light'), url('../src/fonts/OpenSansLight.woff2') format("woff2"), url('../src/fonts/OpenSansLight.woff') format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-SemiBold'), url('../src/fonts/OpenSansSemiBold.woff2') format("woff2"), url('../src/fonts/OpenSansSemiBold.woff') format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-ExtraBold'), url('../src/fonts/OpenSans-ExtraBold.woff2') format("woff2"), url('../src/fonts/OpenSans-ExtraBold.woff') format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope-Light'), url('../src/fonts/Manrope-Light.woff2') format("woff2"), url('../src/fonts/Manrope-Light.woff') format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope-SemiBold'), url('../src/fonts/Manrope-SemiBold.woff2') format("woff2"), url('../src/fonts/Manrope-SemiBold.woff') format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope-ExtraBold'), url('../src/fonts/Manrope-ExtraBold.woff2') format("woff2"), url('../src/fonts/Manrope-ExtraBold.woff') format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.title {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  font-family: "Manrope", "OpenSans", sans-serif;
+  font-weight: 400;
+  background-color: var(--light-back);
+  color: var(--light-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: var(--dark-background);
+  color: var(--light-elements-dark-text);
+}
+
+/* glob */
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-reset:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

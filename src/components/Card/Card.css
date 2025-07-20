@@ -1,0 +1,24 @@
+.card {
+    flex-direction: column;
+    background-color: var(--light-elements-dark-text);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card__descr {
+    padding: 10px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+body.dark .card {
+    background-color: var(--dark-element);
+}
+
+.card__image {
+    height: 150px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
