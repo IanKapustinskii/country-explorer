@@ -36,14 +36,18 @@ Eine responsive Webanwendung, mit der Benutzer Länder nach Regionen erkunden, n
 - `src/utils` – Hilfsfunktionen zur Datenverarbeitung
 - `public/favicon.ico` – Eigenes Favicon (🌍 Globus)
 
+## Demo
+
+https://iankapustinskii.github.io/country-explorer
+
+🌐 Available Languages: [English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)
+
 ## 📦 Projekt ausführen
 
 Klonen und lokal starten:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/IanKapustinskii/country-explorer.git
 cd country-explorer
 npm install
 npm run dev
-
-🌐 Available Languages: [English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)

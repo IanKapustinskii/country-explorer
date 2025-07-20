@@ -8,7 +8,7 @@ import { Header } from './components/Header/Header.tsx'
 function App() {
 
   return (
-    <Router>
+    <Router basename='/country-explorer'>
       <Header />
       <Routes>
         <Route path="/" element={<FetchCardListView />} />

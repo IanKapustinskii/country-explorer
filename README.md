@@ -36,14 +36,19 @@ A responsive web app that allows users to explore countries by region, search by
 - `src/utils` – Helper functions for parsing country data
 - `public/favicon.ico` – Custom favicon (globe icon 🌍)
 
+## Demo
+
+https://iankapustinskii.github.io/country-explorer
+
+🌐 Available Languages: [English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)
+
 ## 📦 Getting Started
 
 Clone and run the project:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/IanKapustinskii/country-explorer.git
 cd country-explorer
 npm install
 npm run dev
 
-🌐 Available Languages: [English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)

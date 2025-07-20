@@ -45,13 +45,15 @@
 
 ## Демо
 
+https://iankapustinskii.github.io/country-explorer
+
+🌐 Available Languages: [English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)
 
 ## 📝 Запуск проекта
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/IanKapustinskii/country-explorer.git
 cd country-explorer
 npm install
 npm run dev
 
-🌐 Available Languages: [English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)
